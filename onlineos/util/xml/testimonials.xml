@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testimonials>
+  <quotes>
+    <id>1</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Você está fazendo a melhor escolha ao utilizar nosso sistema!</quote>
+  </quotes>
+  <quotes>
+    <id>2</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Ao ordenar as OSs os seus técnicos poderão se organizar nesta ordem!!!</quote>
+  </quotes>
+  <quotes>
+    <id>3</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Com esse sistema você agora terá um diferencial para oferecer à seus clientes!!!</quote>
+  </quotes>
+  <quotes>
+    <id>4</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Para sua segurança, nó fazemos backups diários dos seus dados, fique tranquilo!!!</quote>
+  </quotes>
+  <quotes>
+    <id>5</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Esta é uma versão de avaliação, o que implica que poderá ter erros, avise-nos e corrigiremos!!!</quote>
+  </quotes>
+  <quotes>
+    <id>6</id>
+    <author>OnlineOS</author>
+    <department>- Sistema</department>
+    <quote>Quer conhecer mais nosso sistema? Clique em dúvidas no rodapé ou no menu do topo!!!</quote>
+  </quotes>
+</testimonials>

@@ -1,0 +1,735 @@
+/*CSS RESET*/
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	border: 0;
+}
+
+a {
+	cursor: pointer;
+}
+.overflow {
+	overflow: hidden;
+}
+.text-space{
+	background: #820e10;
+	padding: 8px 13px 4px;
+}
+
+.text-strong {
+	font-weight: bold;
+}
+input[type=text] {
+	border: solid 1px #820e10;
+	height: 27px;
+	line-height: 16px;
+	padding: 0 2px;
+}
+
+textarea {
+	border: solid 1px #820e10;
+	resize: none;
+	padding: 3px;
+}
+
+html {
+	overflow: hidden;
+}
+
+#header {
+	width: 700px;
+	margin: 30px auto 20px;
+	overflow: hidden;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+.navi  {
+	position: relative;
+	padding:15px 0 0 0;
+    margin-left: 55px;
+}
+
+.navi li {
+	float: left;
+	padding: 5px 15px;
+	/*border-right: solid 1px #d0c4c4;*/
+}
+
+.navi li a {
+	color: #778899;
+}
+
+.active a{
+	font-weight: bold;
+    color: #00aeef !important;
+}
+
+
+
+.link-home {
+	border: none!important;
+	position: relative;
+}
+
+.link-bistro {
+	position: relative;
+
+}
+
+.link-twitter {
+	background: url("../images/ico-twitter.png");
+	background-position: 9px 5px;
+	background-repeat: no-repeat;
+	padding: 5px 10px 5px 35px!important;
+}
+
+.link-facebook {
+	background: url("../images/ico-face.png");
+	background-position: 9px 5px;
+	background-repeat: no-repeat;
+	padding: 5px 10px 5px 35px!important;
+}
+
+.link-contato  {
+	border: none!important;
+}
+
+.next, .prev {
+	position: absolute;
+	z-index: 9999;
+	top: 0px;
+	cursor: pointer;
+	height: 480px;
+	overflow: hidden;
+	width: 640px;
+}
+
+.next img, .prev  img{
+	position: absolute;
+	top: 180px;
+}
+
+.next {
+	left: 590px;
+}
+
+.prev {
+	left: -620px;
+	width: 660px;
+}
+
+.prev img {
+	
+	left: 555px;
+}
+
+/*
+
+#container-main {
+	overflow: hidden;
+	background: url("../images/container-imp.jpg") top center;
+}
+
+*/
+#container{
+	margin: 0 auto;
+	width: 640px;
+	position: relative;
+}
+#content-horizontal {	
+	position:relative;
+	width: 640px;
+	height:480px;
+}
+
+#content-horizontal  #main-carrossel {
+	width:20000em;
+	position:absolute;
+}
+
+#main-carrossel div.item-div{
+	color: #778899;
+	width: 640px;
+	float:left;
+	height: 480px;
+	/*border-right: 10px solid #fff;*/
+	position: relative;
+	left: -10px;
+    padding: 0 45px;
+}
+
+#main-carrossel div.item-div .text{
+    padding-bottom: 10px;
+    padding-right: 95px;
+}
+
+#main-carrossel div.item-div .img{
+    width: 500px;
+    position: relative;
+    left: -52px;
+    text-align: center;
+}
+
+.borderImage {
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding: 8px;
+border: solid;
+background-color: white;
+margin-bottom: 25px;
+border-color: #DDD #AAA #AAA #DDD;
+border-width: 1px 2px 2px 1px;
+}
+
+#setor-home {
+	/*background:#f00;*/
+}
+
+#setor-cafe {
+
+}
+
+#setor-cafe div.content-setor {
+	width: 413px;
+	height: 135px;
+	position: relative;
+	top: 93px;
+	left: 90px;
+}
+
+#setor-cafe div.content-setor .config {
+	padding-left: 65px;
+	position: relative;
+	top: -30px;
+}
+
+#setor-cafe div.content-setor .p-dois {
+	padding-left:103px;
+	position: relative;
+	top: -20px;
+}
+
+#setor-cafe  .orelha-right {
+	background: url("../images/right-orelha.png");
+	width: 250px;
+	height: 335px;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+#setor-cafe .orelha-right .menu-int {
+	position: absolute;
+	bottom: 37px;
+	left: 30px;
+}
+
+#setor-twitter {
+	background: url("../images/bg-twitter.jpg");
+}
+
+#setor-facebook {
+	background: url("../images/bg-facebook.jpg");
+}
+
+#setor-mural {
+	background: url("../images/bg-mural.jpg");
+}
+
+#setor-mural .content-setor {
+	width: 450px;
+	position: relative;
+	left: 50%;
+	margin-left: -225px;
+}
+
+#setor-mural .actions {
+	width: 65px;
+	margin: 0 auto;
+}
+
+#setor-mural .actions  .disabled {
+	opacity:0.30;
+	-moz-opacity: 0.30;
+	filter: alpha(opacity=30);
+}
+
+.actions a {
+	display: block;
+	height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+
+.actions a:hover img{
+	position: relative;
+	top: -30px;
+}
+
+#setor-mural .tit-setor {
+	background: url("../images/border-tit.png") center bottom;
+	background-repeat: no-repeat;
+	/*color: #420000;*/
+	display: block;
+	width: 214px;
+	margin: 30px auto 20px;
+	padding-bottom: 10px;
+}
+
+.tit-recados {
+	/*color: #cd341a;*/
+	margin-bottom: 5px;
+}
+.simples {
+	/*color: #820E10;*/
+	margin-top: 20px;
+}
+
+.item-recado {
+	margin-bottom: 20px;
+}
+
+.item-recado a {
+	/*color: #cd341a;*/
+}
+
+.data {
+	background: #410000;
+	display: block;
+	width: 70px;
+	padding: 3px 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+.list-recados {
+	position:relative;
+	overflow:hidden;
+	height: 300px;
+	width: 450px;
+}
+.item-mural {
+	position:absolute;
+	height:20000em;
+}
+
+
+
+#setor-cupom {
+	background: url("../images/bg-cupom.jpg");
+}
+
+#setor-cupom .content-setor{
+	width: 510px!important;
+	top: 60px;
+	left: 75px;
+	position: relative;
+}
+
+#setor-cupom .imagem-cupom {
+	width: 160px;
+	float: left;
+	height: 60px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
+#setor-cupom .imagem-cupom  img{
+	border: solid 1px #820e10;
+}
+
+#setor-cupom .tit {
+	margin-bottom: 5px;
+}
+
+.content-cupom {
+	width: 335px;
+	float: right;
+	/*color: #820e10;*/
+}
+
+.numeros-cupom {
+	clear: both;
+	font-weight: bold;
+	display: block;
+	width: 350px;
+	margin: 40px auto 0;
+}
+
+#setor-cupom .content-setor  form {
+	width: 390px;
+	margin: 40px auto 20px;
+}
+
+#setor-cupom  .content-setor  form input[type=text]{
+	position: relative;
+	top: -5px;
+	width: 303px;
+}
+
+#setor-cupom  .content-setor  form  label {
+	font-weight: bold;
+}
+
+#setor-cupom  .content-setor  form  .na-linha {
+	width: 50px;
+	float: left;
+}
+
+#setor-cupom  .content-setor  form  textarea {
+	width: 350px;
+	height: 92px;
+}
+
+#setor-cupom  .content-setor  form .bt-enviar input{
+	background: url("../images/bt-cupom.jpg");
+	width: 117px;
+	height: 31px;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin-right: 33px;
+}
+
+#setor-cupom .content-setor  form p {
+	margin-bottom: 12px;
+}
+
+.border-line{	
+	/*border: solid 1px #820e10;
+	padding: 7px;  */
+}
+
+.border-line.left {
+	/*margin-right: 10px;*/
+}
+
+.restante {
+	padding: 8px 10px;
+	background: #820e10;
+	margin: 0 0 0 -10px;
+}
+
+#setor-contato {
+	background: url("../images/bg-contato.jpg");
+}
+
+#setor-contato .content-setor {
+	background: url("../images/bg-form.png");
+	width: 447px;
+	height: 433px;
+	position: relative;
+	top: 0px;
+	left: 70px;
+	padding: 50px 0 0 80px;
+}
+
+#setor-contato .content-setor  form {
+	margin-top: 15px;
+}
+
+#setor-contato .content-setor  form input[type=text]{
+	position: relative;
+	top: -5px;
+	width: 303px;
+}
+
+#setor-contato .content-setor  form  label {
+	font-weight: bold;
+}
+
+#setor-contato .content-setor  form  .na-linha {
+	width: 50px;
+	float: left;
+}
+
+#setor-contato .content-setor  form  textarea {
+	width: 350px;
+	height: 92px;
+}
+
+#setor-contato .content-setor  form .bt-enviar input{
+	background: url("../images/bt-enviar.jpg");
+	width: 69px;
+	height: 31px;
+	color: #fff;
+	float: right;
+	cursor: pointer;
+	margin-right: 90px;
+}
+
+#setor-contato .content-setor  form p {
+	margin-bottom: 12px;
+}
+
+#setor-contato .content-setor h2{
+	text-transform: uppercase;
+}
+#setor-contato .content-setor  p {
+
+}
+#setor-bistro {	
+	overflow: hidden;
+}
+
+#setor-bistro div.content-setor {
+	width: 500px;
+	position: relative;
+	top: 50px;
+	left: 70px;
+}
+
+#setor-bistro div.content-setor  h2 {
+	margin-bottom: 20px;
+}
+
+#setor-bistro  .orelha-left {
+	background: url("../images/left-orelha.png");
+	width: 250px;
+	height: 335px;
+	position: relative;
+	margin-top:17px;
+}
+
+#setor-bistro  .orelha-left .menu-int {
+	position: absolute;
+	bottom: 40px;
+	left: 30px;
+}
+
+#galeria-bistro {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#scroll-foto {
+	position:relative;
+	overflow:hidden;
+	height: 480px;
+	width: 640px;
+}
+
+#foto-content{
+	position:absolute;
+	height:20000em;
+}
+
+/********
+FOOTER
+*********/
+
+
+
+
+/*****/
+
+.fotos-bistro {
+	position: absolute;
+	top: 0;
+	z-index: 200;
+}
+
+.fotos-bistro .list-recados {
+	width: 640px;
+	height: 480px;
+}
+
+.fotos-bistro .actions {
+	position: absolute;
+	top: 20px;
+	z-index: 888;
+	width: 72px;
+	left: 50%;
+	margin-left: -36px;
+}
+
+.fotos-bistro .actions  .disabled {
+	opacity:0.30;
+	-moz-opacity: 0.30;
+	filter: alpha(opacity=30);
+}
+
+.fotos-bistro .actions .next-01 {
+	position: absolute;
+	top: 410px;
+	left: 0;
+}
+
+
+.fotos-cafe {
+	position: absolute;
+	top: 0;
+	z-index: 200;
+}
+
+.fotos-cafe .list-recados {
+	width: 640px;
+	height: 480px;
+}
+
+.fotos-cafe .actions {
+	position: absolute;
+	top: 20px;
+	z-index: 888;
+	width: 72px;
+	left: 50%;
+	margin-left: -36px;
+}
+
+.fotos-cafe .actions .disabled {
+	opacity:0.30;
+	-moz-opacity: 0.30;
+	filter: alpha(opacity=30);
+}
+
+
+.fotos-cafe .actions .next-01 {
+	position: absolute;
+	top: 410px;
+	left: 0;
+}
+
+
+.bt-voltar {
+	position: absolute;
+	left: 15px;
+	top: 390px;
+	cursor: pointer;
+}
+
+.mapa {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 255;
+}
+
+
+
+#titTwitter {
+	margin-left:60px;
+	margin-top:45px;
+
+}
+
+.twitterEscuro {
+
+}
+
+
+.twitterClaro {
+
+}
+
+#status{
+
+}
+
+#statusCupom{
+
+}
+
+.twtr-tweet-wrap {
+	line-height: 16px;
+}
+
+.twtr-user {
+	font-weight: bold;
+}
+
+
+
+
+.face1{
+	height:70px;
+	background-color:#FFF;
+
+		
+}
+
+.face2{
+	height:74px;
+	background-color:#FFF;
+	padding-left:20px;
+		
+}
+.titFace{
+	margin-bottom:12px;
+	
+}
+#recebeFacebook1{
+	float:left;
+	margin-left:50px;
+	margin-top:35px;
+	width:284px;
+	height:210px;
+	
+}
+
+#recebeFacebook2{
+
+	margin-left:345px;
+		margin-top:35px;
+	width:234px;
+	height:185px;
+	background-color:#FFF;
+	padding-left:6px;
+	padding-top:10px;
+}
+
+#recebeFacebook3{
+	margin-left:50px;
+	margin-top:0px;
+	width:535px;
+	height:200px;
+	background-color:#FFF;
+}
+
+.titFace {
+	height: 39px;
+}
+
+.abrir-galeria-bistro,.abrir-galeria-cafe,.abrir-mapa-bistro,.abrir-mapa-cafe {
+	height: 85px;
+	overflow: hidden;
+	position:relative;
+	float: left;
+}
+.abrir-galeria-bistro img,.abrir-mapa-bistro img, .abrir-galeria-cafe img, .abrir-mapa-cafe img{
+	position: relative;
+	top: -5px;
+}
+
+.abrir-galeria-bistro:hover img,.abrir-mapa-bistro:hover  img, .abrir-galeria-cafe:hover  img, .abrir-mapa-cafe:hover  img{
+	position: relative;
+	top: -91px;
+}
+
+.bt-voltar {
+	height: 85px;
+	overflow: hidden;
+	position:relative;
+	display: block;
+	top: -122px;
+}
+
+.bt-voltar img {
+	position: relative;
+	top: -5px;
+}
+
+.bt-voltar:hover img {
+	position: relative;
+	top: -91px;
+}
+
+

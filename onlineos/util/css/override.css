@@ -1,0 +1,107 @@
+/*<style type="text/css" media="screen" id="less:css-jquery:ui:themes:override">/*#0076A3; Este bloco estava dentro do index, talvez para que o less funcionasse*/		
+/* Selects */
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+  border: 1px solid #DDD !important;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+  border: 1px solid #DDD !important;
+}
+.ui-widget {
+  font-family: Trebuchet MS, Helvetica, Arial, sans-serif;
+  font-size: inherit;
+}
+.ui-widget-content {
+  background: none repeat scroll 0 0 white !important;
+  color: #599fcf !important;
+  border: 1px solid #DDD !important;
+  width: 386px !important;
+  text-transform: lowercase;
+  font-variant: small-caps !important;
+  font-size: 14px;
+}
+input.ui-widget-content {
+  height: 30px !important;
+  padding-left: 4px;
+}
+#slider-range-max {
+  overflow: visible !important;
+  width: 256px !important;
+}
+.ui-corner-left, .ui-corner-all, .ui-corner-right {
+  border-radius: 0px !important;
+  -moz-border-radius: 0px !important;
+  font-variant: small-caps;
+}
+.ui-menu {
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  width: 386px !important;
+}
+.ui-widget-content a {
+  color: #778899 !important;
+}
+.ui-widget-content a:hover {
+  border: 1px solid #BBB !important;
+  color: #599FCF !important;
+}
+button.ui-button-icon-only {
+  background: none repeat scroll 0 0 white !important;
+  border-left: 0 none !important;
+  height: 34px;
+  position: relative;
+  text-align: right !important;
+  top: 0px;
+  width: 2.2em !important;
+  _width: 0.2em !important;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  button.ui-button-icon-only {
+    top: 0px;
+  }
+}
+.ui-slider {
+  border-left: 8px solid transparent;
+  border-right: 10px solid #DDD;
+  left: 15px !important;
+  position: relative !important;
+  text-align: left !important;
+  top: 20px !important;
+}
+.ui-slider-horizontal {
+  height: 12px;
+  margin-left: 0 !important;
+  top: -2px;
+}
+.ui-slider-handle {
+  left: 8px;
+}
+.ui-slider-horizontal .ui-slider-range {
+  /*top: 6px !important;*/
+
+}
+.ui-widget-header {
+  background: none #DDD;
+}
+.ui_tpicker_hour, .ui_tpicker_minute {
+  margin-bottom: 22px !important;
+  width: 356px !important;
+}
+.ui-datepicker .ui-datepicker-buttonpane {
+  margin: 2.7em 0 0 !important;
+  width: 379px !important;
+}
+
+@-moz-document url-prefix(){
+        #reg_box .ui-autocomplete-input {
+            width: 352px !important;
+        }
+        #cadastrar input {
+            left: -1px !important;
+        }
+}

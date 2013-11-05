@@ -1,0 +1,64 @@
+.popupFlat .popupHeadline {
+padding-top: 2px;
+padding-bottom: 8px;
+font-size: 15px;
+color: #333;
+text-align: left;
+border: none;
+background-image: none;
+background-color: #E3F0D6;
+border-bottom: 2px solid #C0DAA3;
+}
+
+.popup .popupHeadline {
+position: relative;
+font-size: 26px;
+font-weight: bold;
+line-height: 1em;
+text-align: center;
+padding-top: 4px;
+padding-bottom: 11px;
+padding-left: 15px;
+border-left: 3px solid #87B156;
+border-right: 3px solid #87B156;
+background-image: none;
+background-color: #DEEDCC;
+}
+
+.popup .popupPart {
+background: url(../images/popup_lados.png) 1000px 1000px no-repeat;
+}
+
+.popupSoldout .popupContent {
+padding: 17px 17px 10px 17px;
+}
+
+.popupPlain .popupContent, .popupFlat .popupContent {
+border: none;
+}
+
+.popup .popupContent {
+position: relative;
+border-left: 3px solid #87B156;
+border-right: 3px solid #87B156;
+background-image: none;
+background-color: white;
+}
+
+.popupWidth515Flat .popupBot {
+background-position: -7185px 0;
+}
+
+.popupFlat .popupBot {
+height: 10px;
+}
+
+.popupWidth515Flat {
+width: 515px;
+}
+
+.popup {
+position: relative;
+margin: 0 auto;
+color: #191B1F;
+}
